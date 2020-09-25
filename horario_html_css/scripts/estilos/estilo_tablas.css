@@ -1,0 +1,79 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	font-family: Montserrat, Arial;
+    margin: 0;
+}
+
+
+.header .image1{
+	background: url("../../imagenes/logo_educ.png") no-repeat;
+	width: 300px;
+	height: 61px; 
+}
+.header .image2{
+	background: url("../../imagenes/logo-tecnm.png") no-repeat;
+	width: 124px;
+	height: 76px;
+}
+.header .image3{
+	background: url("../../imagenes/logo-zac.png") no-repeat;
+	width: 80px;
+	height: 74px;
+}
+
+.header .image4{
+	background: url("../../imagenes/logo-itsj.jpg") no-repeat;
+	width: 80px;
+	height: 79px;
+	 
+}
+
+.header .text,
+.header .image1,
+.header .image2,
+.header .image3,
+.header .image4{
+	padding: 25px 40px;
+	display: inline-block;
+	position: sticky;
+}
+
+.header .text{
+	text-align: right;
+	font-family: "Lucida Console", monospace;	
+}
+.text h1{
+	font-size: 150%;
+	font-weight: bold;
+}
+
+.tabla {
+	padding: 35px;
+}
+
+table{
+	text-align: center;
+	border-collapse: collapse;
+}
+table th{
+	border: 3px solid black;
+	background-color: maroon;
+	color: white;
+}
+table td{
+	border: 1px solid black
+
+}
+table p{
+	font-size: small;
+}
+
+footer{
+	color: white;
+	padding: 15px;
+	text-align: center; 
+	background-color: maroon;
+}
+
